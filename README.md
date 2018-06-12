@@ -15,6 +15,7 @@
 1. `setup.bat`
 1. Navigate to notebooks: `chdir ..\notebooks`. 
 1. Ensure you are in the notebooks directory: `echo %cd%`
+    - should be something like (the last two directories are what matter): `C:\Users\alizaidi\Documents\nlpdev\tatk-repos\azureml-tap-notebooks\notebooks`
 1. Launch a notebook server `az ml noteboook start`
 
 ## Useful Links
