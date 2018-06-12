@@ -7,13 +7,15 @@
     - or, click on the green download button ![](imgs/download-gh.PNG)
 1. If needed, extract the folder.
 1. Open the command prompt in Azure ML: **File > Open Command Prompt**.
-1. Navigate to the extracted directory: `chdir <location>`
+1. Navigate to the extracted directory: `chdir <location>\install`
 1. If you have a GPU machine with CUDA 8 and CUDNN 5 enabled:
     `pip install tensorflow-gpu==1.6`
     - otherwise:
     `pip install tensorflow==1.6`
 1. `setup.bat`
-1. Navigate to the cloned git repository: `chdir <notebook> directory`
+1. Navigate to notebooks: `chdir ..\notebooks`. 
+1. Ensure you are in the notebooks directory: `echo %cd%`
+1. Launch a notebook server `az ml noteboook start`
 
 ## Useful Links
 
