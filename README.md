@@ -2,6 +2,22 @@
 
 ## Instructions for MLADS
 
+1. **Requirement**: DSVM/DLVM or a Windows machine with Azure ML Workbench installed.
+1. Please clone this repository: `git clone https://github.com/Azure/azureml-tap-notebooks.git`
+    - or, click on the green download button ![](imgs/download-gh.PNG)
+1. If needed, extract the folder.
+1. Open the command prompt in Azure ML: **File > Open Command Prompt**.
+1. Navigate to the extracted directory: `chdir <location>`
+1. If you have a GPU machine with CUDA 8 and CUDNN 5 enabled:
+    `pip install tensorflow-gpu==1.6`
+    - otherwise:
+    `pip install tensorflow==1.6`
+1. `setup.bat`
+1. Navigate to the cloned git repository: `chdir <notebook> directory`
+
+## Useful Links
+
+### [Azure ML Text Analytics Documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/reference-python-package-overview#azure-ml-package-for-text-analytics)
 
 # Contributing
 
