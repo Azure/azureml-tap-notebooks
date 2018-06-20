@@ -1,6 +1,6 @@
 # Azure ML Text Analytics Package Notebooks
 
-## Instructions for MLADS
+## Instructions for Installing the Package
 
 1. **Requirement**: DSVM/DLVM or a Windows machine with Azure ML Workbench installed.
 1. Please clone this repository: `git clone https://github.com/Azure/azureml-tap-notebooks.git`
