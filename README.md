@@ -1,5 +1,7 @@
 # Azure ML Text Analytics Package Notebooks
 
+This repository contains notebooks demonstrating the use of the Azure ML Text Analytics package. Further documentation about the package can be found on the package [homepage](https://docs.microsoft.com/en-us/azure/machine-learning/service/reference-python-package-overview#azure-ml-package-for-text-analytics).
+
 ## Instructions for Installing the Package
 
 1. **Requirement**: DSVM/DLVM or a Windows machine with Azure ML Workbench installed.
