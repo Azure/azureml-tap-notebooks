@@ -4,10 +4,14 @@ This repository contains notebooks demonstrating the use of the Azure ML Text An
 
 ## Instructions for Accessing Labs from Learn On Demand Systems
 
+![](imgs/0-lab-start.PNG)
 - Launch the lab by clicking the icon for Launch:
 ![](imgs/lods-start.PNG)
 
 - This should launch two new browser windows.
+- Find your _lab credentials for Azure_ by clicking on the resources tab:
+![](imgs/lods-credentials.PNG)
+- Use these credentials to log into the Azure portal in the browser pointing to Azure
 - On the Azure browser, click on `All Services` in the left pane.
 
 ![](imgs/lods-all-services.PNG)
