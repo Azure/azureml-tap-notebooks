@@ -20,7 +20,6 @@ This repository contains notebooks demonstrating the use of the Azure ML Text An
 
 ![](imgs/lods-RDP-download.PNG)
 
-- Use the `Resources` tab to obtain your credentials for the VM.
 - Connect to the VM using the following credentials:
     * `ready`
     * `ReadyLabs123!`
