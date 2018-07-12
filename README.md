@@ -16,7 +16,7 @@ This repository contains notebooks demonstrating the use of the Azure ML Text An
 
 ![](imgs/lods-all-services.PNG)
 - Click on the service titled `tatk-vm`
-- Download the RDP file by using `Connect` -> `Download RDP File` inconsistency
+- Download the RDP file by using `Connect` -> `Download RDP File` 
 
 ![](imgs/lods-RDP-download.PNG)
 
