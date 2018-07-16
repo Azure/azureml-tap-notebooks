@@ -31,12 +31,25 @@ The second link, the lab homepage, should look like:
 - Connect to the VM using the following credentials:
     * `ready`
     * `ReadyLabs123!`
+- Create an Azure Machine Learning Experimentation Account with your temporary Lab subscription:
+
+    1. Create an AML 
+    ![](imgs/aml-create-experimentation.PNG)
+    1. Note: your subscription cannot create new resource groups, so make sure you use the already created (there is only one resource group in the subscription):
+    ![](imgs/aml-settings.PNG)
+    1. A single seat and the DevTest model management account will suffice.
+
 - Open the Azure Workbench Link on the desktop of your virtual machine:
 
+![](imgs/vm-desktop.PNG)
+
+- Click the `+` and select _Add Existing Folder as Project`.
+![](imgs/aml-add-folder.PNG)
+- Select the folder `C:\Users\ready\Downloads\tap-1.0.0b3-release\notebooks` to your workspace:
+![](imgs/aml-select-folder.PNG)
 - Open the Notebooks pane in the Workbench:
-
-- Click _Start notebook server_:
-
+![](imgs/aml-start-server.PNG)
+- Select a notebook and click _Start notebook server_.
 
 
 ## Useful Links
