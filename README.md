@@ -33,7 +33,7 @@ The second link, the lab homepage, should look like:
     * `ReadyLabs123!`
 - Create an Azure Machine Learning Experimentation Account with your temporary Lab subscription:
 
-    1. Create an AML 
+    1. Create a Machine Learning Experimentation Service:
     ![](imgs/aml-create-experimentation.PNG)
     1. Note: your subscription cannot create new resource groups, so make sure you use the already created (there is only one resource group in the subscription):
     ![](imgs/aml-settings.PNG)
@@ -43,6 +43,7 @@ The second link, the lab homepage, should look like:
 
 ![](imgs/vm-desktop.PNG)
 
+- Login using your lab credentials.
 - Click the `+` and select _Add Existing Folder as Project`.
 ![](imgs/aml-add-folder.PNG)
 - Select the folder `C:\Users\ready\Downloads\tap-1.0.0b3-release\notebooks` to your workspace:
