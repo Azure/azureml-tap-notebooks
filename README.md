@@ -4,15 +4,23 @@ This repository contains notebooks demonstrating the use of the Azure ML Text An
 
 ## Instructions for Accessing Labs from Learn On Demand Systems
 
-![](imgs/0-lab-start.PNG)
-- Launch the lab by clicking the icon for Launch:
+When you open the lab link, you should have two window browser tabs open in your default browser: 1. Azure Portal signin. 2. The lab homepage.
+
+The Azure portal sign-in should look like:
+
+![](imgs/lab-portal-signin.PNG)
+
+The second link, the lab homepage, should look like:
+
 ![](imgs/lods-start.PNG)
 
-- This should launch two new browser windows.
-- Find your _lab credentials for Azure_ by clicking on the resources tab:
+- Find your lab credentials by clicking _Resources_ pane in the lab homepage:
+
 ![](imgs/lods-credentials.PNG)
-- Use these credentials to log into the Azure portal in the browser pointing to Azure
-- On the Azure browser, click on `All Services` in the left pane.
+
+- Launch the lab by clicking the icon for _Launch_.
+- Use the  credentials accessed earlier to log into the Azure portal in the browser pointing to Azure
+- On the Azure browser, click on `All Resources` in the left pane.
 
 ![](imgs/lods-all-services.PNG)
 - Click on the service titled `tatk-vm`
@@ -23,25 +31,13 @@ This repository contains notebooks demonstrating the use of the Azure ML Text An
 - Connect to the VM using the following credentials:
     * `ready`
     * `ReadyLabs123!`
-- Launch Jupyter and follow the instructor
+- Open the Azure Workbench Link on the desktop of your virtual machine:
 
-## Instructions for Installing the Package on Your Own DSVM / DLVM
+- Open the Notebooks pane in the Workbench:
 
-1. **Requirement**: DSVM/DLVM or a Windows machine with Azure ML Workbench installed.
-2. Please clone this repository: `git clone https://github.com/Azure/azureml-tap-notebooks.git`
-    - or, click on the green download button ![](imgs/download-gh.PNG)
-3. If needed, extract the folder.
-4. Open the command prompt in Azure ML: **File > Open Command Prompt**.
-5. Navigate to the extracted directory: `chdir <location>\install`
-6. If you have a GPU machine with CUDA 8 and CUDNN 5 enabled:
-    `pip install tensorflow-gpu==1.6`
-    - otherwise:
-    `pip install tensorflow==1.6`
-7. `setup.bat`
-8. Navigate to notebooks: `chdir ..\notebooks`. 
-9. Ensure you are in the notebooks directory: `echo %cd%`
-    - should be something like (the last two directories are what matter): `C:\Users\alizaidi\Documents\nlpdev\tatk-repos\azureml-tap-notebooks\notebooks`
-10. Launch a notebook server `az ml noteboook start`
+- Click _Start notebook server_:
+
+
 
 ## Useful Links
 
