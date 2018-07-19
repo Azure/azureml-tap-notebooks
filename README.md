@@ -39,6 +39,7 @@ The second link, the lab homepage, should look like:
     ![](imgs/aml-create-experimentation.PNG)
     1. Note: your subscription cannot create new resource groups, so make sure you use the already created (there is only one resource group in the subscription):
     ![](imgs/aml-settings.PNG)
+    	* Here's your opportunity to be _creative!_. Try and name your account uniquely so that you can avoid name conflicts with other users (tips: add your alias to the end).
     1. A single seat and the DevTest model management account will suffice.
 
 - Open the Azure Workbench Link on the desktop of your virtual machine:
