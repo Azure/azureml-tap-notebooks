@@ -4,6 +4,8 @@ This repository contains notebooks demonstrating the use of the Azure ML Text An
 
 ## Instructions for Accessing Labs from Learn On Demand Systems
 
+**NOTE**: Please use Firefox or Chrome to run the labs. Using Edge or IE is not supported.
+
 When you open the lab link, you should have two window browser tabs open in your default browser: 1. Azure Portal signin. 2. The lab homepage.
 
 The Azure portal sign-in should look like:
